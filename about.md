@@ -4,4 +4,5 @@ title: About
 permalink: /about/
 ---
 
-Another minimal style of Jekyll theme for writers.
+eJPT / eCPPTv2 / eWPT & eWPTXv2     
+Offensive Security & Cyber Security Consultant 🗡️

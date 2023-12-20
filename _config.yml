@@ -1,14 +1,17 @@
-title: Hamilton
-description: A minimal and beautiful Jekyll theme best for writing and note-taking.
-author: Shangzhi Huang
+title: H4RRIZN
+description: Cyber Security & Offensive Security Content
+author: H4RRIZN
 avatar: /logo.png
-email: ngzhio@gmail.com
+
 
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-remote-theme
+
+remote_theme: https://github.com/zivong/jekyll-theme-hamilton
 
 paginate: 10
 
@@ -16,7 +19,7 @@ paginate: 10
 # 
 # google_analytics: 
 
-# Uncomment the below lines and set the Disqus shortname for enabling Disqus
+# Uncomment the below lines and set the Disqus shortn2ame for enabling Disqus
 # 
 # disqus:
 
@@ -26,18 +29,4 @@ exclude:
   - scripts/
   - README.md
   - jekyll-theme-hamilton.gemspec
-
-# Jekyll SEO Tag (Optional)
-# =========================
-twitter:
-  username: ngzhio
-  card: summary
-logo: logo.png
-social:
-  name: Shangzhi Huang
-  links:
-    - https://twitter.com/ngzhio
-    - https://www.facebook.com/ngzhio
-    - https://github.com/ngzhio
-google_site_verification: u4WXQl0Eu66rsQo2kRdCNx
-lang: en
+#
