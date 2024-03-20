@@ -67,7 +67,7 @@ Y vemos que cerrando con doble paréntesis y realizando un ordenamiento por la c
 ![sqli7](https://raw.githubusercontent.com/H4RRIZN/H4RRIZN.github.io/b147a5cb3210264113981aff4a4839f549d76b35/_includes/CTFIMG/Holiday/sqli8.png)
 
 Realizamos la petición con el usuario encontrado para confirmarlo:     
-![sqli8](https://raw.githubusercontent.com-H4RRIZN-H4RRIZN.github.io-b147a5cb3210264113981aff4a4839f549d76b35-?includes-CTFIMG-Holiday-sqli9.png)
+![sqli8](https://github.com/H4RRIZN/H4RRIZN.github.io/blob/master/_includes/CTFIMG/Holiday/sqli9.png?raw=true)
 
 ### → Obteniendo información:
 Ya que confirmamos la cantidad de columnas podemos realizar un ataque de tipo UNION y buscar en donde se refleja el valor de la consulta:    
