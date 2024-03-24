@@ -62,7 +62,7 @@ Configuramos el payload 1 seleccionado el tipo en Simple list y cargamos el dicc
 El Payload 2 lo configuramos igual al primer ataque realizado con Intruder:
 ![pay2](https://i.postimg.cc/XJqBT0qm/pay2.png)
 
-Iniciamos el ataque y observamos que ahora todas las peticiones son código de estado `**200**`
+Iniciamos el ataque y observamos que ahora todas las peticiones son código de estado **`200`**
 ![200brute](https://i.postimg.cc/YSqxqZjf/200brute.png)
 
 Al finalizar el ataque podemos identificar que tenemos una petición con una longitud inferior a la del resto el cual corresponde al PIN 9933:
