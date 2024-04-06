@@ -137,7 +137,7 @@ Posteriormente ingresamos a la carpeta resultando la cual es opt y luego a backu
 ![priv7](https://raw.githubusercontent.com/H4RRIZN/H4RRIZN.github.io/8c8556c7da19f7d4a74d134ca7bfd23559794cc1/_includes/CTFIMG/Epsilon/priv7.png)     
 Como apreciamos contamos con el fichero checksum, el cual si revisamos podemos notar que es una clave rsa para utilizar con SSH:     
 ![priv8](https://raw.githubusercontent.com/H4RRIZN/H4RRIZN.github.io/8c8556c7da19f7d4a74d134ca7bfd23559794cc1/_includes/CTFIMG/Epsilon/priv8.png)    
-La copiamos y la utilizamos para ingresar por SSH con el usuario root:   
+La copiamos y la guardamos en nuestra maquina de atacante. Le asignaremos permisos con `chmod 600` para que contenga los permisos del propietario: 
 ![priv9](https://raw.githubusercontent.com/H4RRIZN/H4RRIZN.github.io/8c8556c7da19f7d4a74d134ca7bfd23559794cc1/_includes/CTFIMG/Epsilon/priv9.png)     
 Observamos que tenemos acceso como usuario root, y ya podremos leer la flag:     
 ![priv10](https://raw.githubusercontent.com/H4RRIZN/H4RRIZN.github.io/1691d8739fe9c2bea4720350b8bf4c406c417fe0/_includes/CTFIMG/Epsilon/priv10.png)
